@@ -36,3 +36,34 @@
 #about h3 {
     color: #fff;
 }
+
+a.btn-descargaCV {
+    background-color: #001f85; /* azul sólido */
+    color: #fff;               /* letras blancas */
+    border: 2px solid #f2f3f5; /* borde azul */
+    border-radius: 8px;        /* esquinas redondeadas */
+    padding: 10px 25px;        /* espacio interno */
+    transition: all 0.3s ease; /* efecto suave */
+    
+}
+
+a.btn-descargaCV:hover {
+    background-color: #fff;    /* fondo blanco */
+    color: #000;               /* letras negras */
+    border-color: #001f85;     /* mantiene el borde azul */
+}
+
+a.btn-Contactame {
+    background-color: #f5f6f8; /* blanco sólido */
+    color: #000000;               /* letras negras */
+    border: 2px solid #1257e2; /* borde azul */
+    border-radius: 8px;        /* esquinas redondeadas */
+    padding: 10px 25px;        /* espacio interno */
+    transition: all 0.3s ease; /* efecto suave */
+}
+
+a.btn-Contactame:hover {
+    background-color: #fff;    /* fondo blanco */
+    color: #000;               /* letras negras */
+    border-color: #001f85;     /* mantiene el borde azul */
+}

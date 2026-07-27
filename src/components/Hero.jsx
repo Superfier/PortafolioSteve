@@ -33,7 +33,7 @@ function Hero() {
                             y Bootstrap.
                         </p>
 
-                        <a href="#projects" className="btn btn-primary me-3">
+                        <a href="#projects" className="btn btn-primary me-5">
                             Ver proyectos
                         </a>
 

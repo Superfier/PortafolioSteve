@@ -31,7 +31,7 @@ function About() {
                         </h3>
 
                         <p className="text-white mb-4">
-                            Soy un desarrollador Java Full Stack Jr. apasionado por el desarrollo 
+                            Soy un desarrollador Java Full Stack, apasionado por el desarrollo 
                             de software y el aprendizaje continuo. Me especializo en la creación de 
                             aplicaciones web utilizando Java, React y bases de datos SQL.
                             Me gusta enfrentar nuevos retos, trabajar en equipo y desarrollar 
@@ -40,16 +40,19 @@ function About() {
 
                         <a
                             href="/cv/CurriculumStevenLeon.pdf"
-                            className="btn btn-primary"
+                            className="btn btn-descargaCV me-5"
                             download
                         >
                             Descargar CV
                         </a>
 
+                        <a href="#Contact" 
+                            className="btn btn-Contactame">
+                            Contactame
+                        </a>
                     </div>
 
                 </div>
-
             </div>
         </section>
     );
