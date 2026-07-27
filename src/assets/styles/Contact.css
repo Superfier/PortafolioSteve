@@ -1,0 +1,29 @@
+#contact{
+    background:#f8f9fa;
+}
+
+#contact .card{
+    border-radius:20px;
+    transition:.35s;
+}
+
+#contact .card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08)!important;
+}
+
+#contact input,
+#contact textarea{
+    border-radius:12px;
+    padding:14px;
+}
+
+#contact a{
+    color:#0d6efd;
+    transition:.3s;
+}
+
+#contact a:hover{
+    transform:translateY(-4px);
+    color:#084298;
+}
