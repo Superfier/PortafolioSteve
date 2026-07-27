@@ -1,0 +1,232 @@
+/* ===========================
+   PROJECTS
+=========================== */
+
+#projects {
+    background: #001f85;
+    padding: 7rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Luces decorativas */
+
+#projects::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: rgba(0, 123, 255, 0.15);
+    filter: blur(120px);
+    top: -180px;
+    left: -150px;
+    border-radius: 50%;
+}
+
+#projects::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.08);
+    filter: blur(120px);
+    bottom: -180px;
+    right: -120px;
+    border-radius: 50%;
+}
+
+#projects h5 {
+    color: #7cb9ff;
+}
+
+#projects h2 {
+    color: #fff;
+}
+
+/* ===========================
+   GRID
+=========================== */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.project-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(18px);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: 0.45s ease;
+    height: 100%;
+}
+
+/* Línea superior */
+
+.project-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+
+/* Glow */
+
+.project-card::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    inset: 0;
+    background: radial-gradient(circle at top,
+            rgba(255, 255, 255, 0.15),
+            transparent 70%);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.project-card:hover {
+    transform: translateY(-15px) rotateX(5deg);
+    border-color: #4facfe;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+}
+
+.project-card:hover::after {
+    opacity: 1;
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.project-image {
+    overflow: hidden;
+    height: 500px;
+    
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+.project-card:hover img {
+    transform: scale(1.08);
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+.project-body {
+    padding: 1.2rem;
+}
+
+.project-body h3 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.project-body p {
+    color: #d7d7d7;
+
+    line-height: 1.7;
+}
+
+/* ===========================
+   TECHNOLOGIES
+=========================== */
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.5rem 0;
+}
+
+.tech-stack span {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 0.45rem 0.9rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.project-buttons a {
+    flex: 1;
+    text-align: center;
+    padding: 0.85rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.35s;
+}
+
+.btn-demo {
+    background: #fff;
+    color: #001f85;
+}
+
+.btn-demo:hover {
+    background: #4facfe;
+    color: white;
+}
+
+.btn-code {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-code:hover {
+    background: white;
+    color: #001f85;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 768px) {
+    #projects {
+        padding: 5rem 0;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+    }
+}
+
+.overlay-note {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ffc107;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+}

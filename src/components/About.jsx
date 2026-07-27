@@ -7,7 +7,7 @@ function About() {
             <div className="container">
 
                 <div className="text-center mb-5">
-                    <h5 className="text-primary">Conóceme</h5>
+                    <h5 className="text-info">Conóceme</h5>
                     <h1 className="fw-bold">Sobre mí</h1>
                 </div>
 
@@ -46,7 +46,7 @@ function About() {
                             Descargar CV
                         </a>
 
-                        <a href="#Contact" 
+                        <a href="#contact" 
                             className="btn btn-Contactame">
                             Contactame
                         </a>

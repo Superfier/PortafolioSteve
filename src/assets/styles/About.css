@@ -36,6 +36,9 @@
 #about h3 {
     color: #fff;
 }
+#about h5{
+    color: #7cb9ff
+}
 
 a.btn-descargaCV {
     background-color: #001f85; /* azul sólido */
