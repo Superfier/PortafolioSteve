@@ -1,0 +1,18 @@
+#hero .row {
+    min-height: 40vh;
+    }
+
+
+.Texto3 {
+    color: #013da9;
+}
+
+/*Imágen de Hero*/
+.profile-pic {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 100%; /* se adapta en móviles */
+    height: auto
+}
