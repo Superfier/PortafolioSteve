@@ -2,9 +2,9 @@ import Particles from "./Particles";
 import "../assets/styles/Hero.css"
 import heroImage from "../assets/images/heroImage.jpg";
 
-function Hero() {
+function Home() {
     return (
-        <section id="hero" className=" position-relative">
+        <section id="home" className=" position-relative">
             <Particles
                 particleColors={["#013da9"]}
                 particleCount={1000}
@@ -61,4 +61,4 @@ function Hero() {
     );
 }
 
-export default Hero;
+export default Home;
