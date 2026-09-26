@@ -6,6 +6,7 @@ import { SiReact,
         SiCss,
         SiGithub,
         SiGit,
+        SiSpringboot,
         } from 'react-icons/si';
 import { FaJava, FaLeaf, FaDatabase, FaCode, FaLaptopCode } from "react-icons/fa";
 
@@ -34,8 +35,8 @@ function Skills() {
 
             <p className="text-muted " >
             A lo largo de mi formación y proyectos he trabajado con frameworks y lenguajes que me permiten 
-            construir soluciones completas: desde el frontend con React y Tailwind CSS, hasta el backend con 
-            Java y bases de datos como MySQL. También domino herramientas de control de versiones como Git y GitHub.
+            construir soluciones completas: desde el frontend con React y CSS, hasta el backend con 
+            Java y Spring Boot y bases de datos como MySQL. También domino herramientas de control de versiones como Git y GitHub.
             </p>
         </div>
         
