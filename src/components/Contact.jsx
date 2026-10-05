@@ -1,7 +1,7 @@
 import {
   Mail,
   MapPin,
-  Send
+  //Send
 } from "lucide-react";
 
 import {
