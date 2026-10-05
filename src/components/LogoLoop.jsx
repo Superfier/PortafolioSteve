@@ -1,4 +1,3 @@
-import React from 'react';
 import { useCallback, useEffect, useMemo, useRef, useState, memo } from 'react';
 import "../assets/styles/LogoLoop.css";
 

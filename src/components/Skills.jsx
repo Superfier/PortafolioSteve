@@ -6,9 +6,8 @@ import { SiReact,
         SiCss,
         SiGithub,
         SiGit,
-        SiSpringboot,
-        } from 'react-icons/si';
-import { FaJava, FaLeaf, FaDatabase, FaCode, FaLaptopCode } from "react-icons/fa";
+       } from 'react-icons/si';
+import { FaJava, FaLeaf, FaDatabase, FaLaptopCode } from "react-icons/fa";
 
 const techLogos = [ 
     { node: <SiHtml5 color="#E34F26" />, title: "HTML5" },

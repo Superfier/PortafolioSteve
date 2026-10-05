@@ -1,6 +1,5 @@
 import {
   Mail,
-  Phone,
   MapPin,
   Send
 } from "lucide-react";
@@ -127,15 +126,10 @@ function Contact() {
                                 >
                                     Enviar mensaje
                                 </button>
-
                             </form>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </section>
     );
