@@ -22,9 +22,9 @@ const projects = [
         id: 2,
         title: "Kápe",
         description:
-            "E-commerce para una marca de café utilizando React y Bootstrap.",
+            "E-commerce para una marca de café utilizando en el FRONTEND React y Bootstrap y en el BACKEND Java, Spring Boot y MySQL.",
         image: kape,
-        technologies: ["React", "Bootstrap"],
+        technologies: ["JavaScript", "Bootstrap", "CSS", "Java", "Spring Boot", "MySQL"],
         github: "#",
         demo: "#",
         inProgress: true,

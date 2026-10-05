@@ -39,7 +39,7 @@ function About() {
                         </p>
 
                         <a
-                            href="/cv/CurriculumStevenLeon.pdf"
+                            href={`${import.meta.env.BASE_URL}/cv/CV-StevenLeonR-JavaJr.pdf`}
                             className="btn btn-descargaCV me-5"
                             download
                         >

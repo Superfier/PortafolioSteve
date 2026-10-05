@@ -29,8 +29,11 @@ function Home() {
 
 
                         <p className="lead">
-                            Desarrollo aplicaciones web modernas utilizando React, JavaScript
-                            y Bootstrap.
+                            Desarrollo aplicaciones web modernas con React, JavaScript y Bootstrap,
+                            creando interfaces responsivas y fáciles de usar. 
+                            También he realizado proyectos con Java y Spring Boot, 
+                            implementando APIs REST y operaciones CRUD. 
+                            Manejo control de versiones con Git/GitHub y aplico buenas prácticas de código con ESLint.
                         </p>
 
                         <a href="#projects" className="btn btn-primary me-5">
@@ -38,7 +41,7 @@ function Home() {
                         </a>
 
                         <a
-                            href="/cv/CurriculumStevenLeon.pdf"
+                            href={`${import.meta.env.BASE_URL}/cv/CV-StevenLeonR-JavaJr.pdf`}
                             className="btn btn-outline-dark"
                             download
                         >
